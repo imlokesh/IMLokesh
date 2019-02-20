@@ -7,6 +7,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", 
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMLokesh.StringExtensions", "StringExtensions\IMLokesh.StringExtensions.csproj", "{33164EB9-803D-4C6E-8B6C-7A459A051873}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMLokesh.Random", "IMLokesh.Random\IMLokesh.Random.csproj", "{8CA673DE-DD13-4ACF-8D8D-12EEA3DE7587}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -17,6 +19,10 @@ Global
 		{33164EB9-803D-4C6E-8B6C-7A459A051873}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{33164EB9-803D-4C6E-8B6C-7A459A051873}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{33164EB9-803D-4C6E-8B6C-7A459A051873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CA673DE-DD13-4ACF-8D8D-12EEA3DE7587}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA673DE-DD13-4ACF-8D8D-12EEA3DE7587}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA673DE-DD13-4ACF-8D8D-12EEA3DE7587}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA673DE-DD13-4ACF-8D8D-12EEA3DE7587}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
