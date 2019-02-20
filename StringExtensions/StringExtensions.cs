@@ -4,7 +4,7 @@ using System.Globalization;
 using System.IO;
 using System.Linq;
 
-namespace StringExtensions
+namespace IMLokesh.StringExtensions
 {
     public static class StringExtensions
     {

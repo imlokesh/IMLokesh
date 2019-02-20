@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.28606.126
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Extensions", "Extensions", "{88693045-3640-4694-96C8-41DC3B34A5F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StringExtensions", "StringExtensions\StringExtensions.csproj", "{33164EB9-803D-4C6E-8B6C-7A459A051873}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IMLokesh.StringExtensions", "StringExtensions\IMLokesh.StringExtensions.csproj", "{33164EB9-803D-4C6E-8B6C-7A459A051873}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
