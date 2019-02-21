@@ -28,10 +28,22 @@ namespace IMLokesh.Random
             }
         }
 
+        /// <summary>
+        /// Generates a thread local instance of NewRandom
+        /// </summary>
         private static readonly ThreadLocal<System.Random> ThreadRandom = new ThreadLocal<System.Random>(NewRandom);
 
+        /// <summary>
+        /// Instance of random that can be used safely from any threads. 
+        /// </summary>
         public static System.Random Instance => ThreadRandom.Value;
 
+        /// <summary>
+        /// 
+        /// </summary>
+        /// <param name="size"></param>
+        /// <param name="lowerCase"></param>
+        /// <returns></returns>
         public static string RandomString(int size, bool lowerCase = false)
         {
             StringBuilder randStr = new StringBuilder(size);
